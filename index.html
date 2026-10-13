@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#271339" />
+  <meta name="description" content="A little birthday surprise for Vanshika." />
+  <title>Happy Birthday, Vanshika! 🎂</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient-glow glow-one" aria-hidden="true"></div>
+  <div class="ambient-glow glow-two" aria-hidden="true"></div>
+  <div class="stars" aria-hidden="true"></div>
+
+  <main>
+    <section class="hero" id="home" aria-label="Birthday surprise">
+      <div class="top-note"><span class="tiny-star">✦</span> A LITTLE SURPRISE, JUST FOR YOU <span class="tiny-star">✦</span></div>
+
+      <div class="fairy-lights" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+      <div class="side-lights left-lights" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="side-lights right-lights" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+
+      <div class="gift-hanger" id="giftHanger">
+        <div class="gift-string"></div>
+        <button class="gift" id="giftButton" type="button" aria-label="Open your birthday gift">
+          <span class="gift-bow bow-left"></span>
+          <span class="gift-bow bow-right"></span>
+          <span class="gift-lid"><span class="lid-ribbon"></span></span>
+          <span class="gift-box"><span class="box-ribbon"></span><span class="box-shine"></span></span>
+          <span class="gift-spark spark-a">✦</span><span class="gift-spark spark-b">✧</span>
+        </button>
+        <p class="gift-instruction" id="giftInstruction">Tap the gift to open your surprise</p>
+      </div>
+
+      <div class="birthday-scene" id="birthdayScene" aria-hidden="true">
+        <div class="garland garland-left" aria-hidden="true">✦　✧　✦　✧</div>
+        <div class="garland garland-right" aria-hidden="true">✧　✦　✧　✦</div>
+        <div class="cake-wrap">
+          <div class="cake-sparkles" aria-hidden="true"><b>✦</b><b>✧</b><b>·</b><b>✦</b><b>✧</b></div>
+          <div class="candles" aria-label="Four glowing candles">
+            <div class="candle candle-one"><span class="flame"></span><span class="wick"></span></div>
+            <div class="candle candle-two"><span class="flame"></span><span class="wick"></span></div>
+            <div class="candle candle-three"><span class="flame"></span><span class="wick"></span></div>
+            <div class="candle candle-four"><span class="flame"></span><span class="wick"></span></div>
+          </div>
+          <div class="cake">
+            <div class="cake-top"></div>
+            <div class="cake-icing-drips"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="cake-body"><span class="cake-stripe"></span><span class="cake-heart">♥</span><span class="cake-berry berry-one"></span><span class="cake-berry berry-two"></span><span class="cake-berry berry-three"></span></div>
+            <div class="cake-bottom-icing"></div>
+          </div>
+          <div class="cake-plate"><span></span></div>
+        </div>
+        <div class="birthday-copy">
+          <p class="eyebrow">TODAY IS ALL ABOUT YOU</p>
+          <h1>Happy Birthday to<br />the best sister <span>Vanshika</span></h1>
+          <p class="hero-subtitle">May your world always be as bright as your smile. ♡</p>
+        </div>
+      </div>
+
+      <button class="scroll-cue" id="scrollCue" type="button" aria-label="Scroll down to read your birthday message">
+        <span>There's a little more below</span>
+        <span class="scroll-arrow">↓</span>
+      </button>
+      <div class="bottom-sheen" aria-hidden="true"></div>
+    </section>
+
+    <section class="letter-section" id="letter">
+      <div class="letter-stars" aria-hidden="true">✧　　　✦　　　　　✧　　　　✦</div>
+      <div class="letter-card">
+        <div class="letter-top-icon" aria-hidden="true">♡</div>
+        <p class="letter-kicker">A NOTE FROM MY HEART</p>
+        <h2>For you, Vanshika…</h2>
+        <div class="letter-divider"><span>✦</span></div>
+        <p class="letter-message">Thank you for the constant support you have given to me. I am grateful to God for giving me a sister like you. I actually love my sisters a lot and when I am now far away from home, I miss them a lot. But whenever I talk with you, whenever I interact with you, it reminds me of my sisters and I feel like their void in my life has been covered up.</p>
+        <p class="letter-message">So, keep smiling and shining always. I am forever there with you.</p>
+        <p class="letter-message final-wish">Once again, a very happy birthday! 🎂</p>
+        <div class="letter-signoff">With lots of love, always <span>♡</span></div>
+      </div>
+      <div class="bottom-actions">
+        <button type="button" class="little-button" id="confettiButton">Make it sparkle ✨</button>
+        <button type="button" class="little-button secondary" id="backToTop">Back to the surprise ↑</button>
+      </div>
+      <footer>Made with love, just for Vanshika <span>♡</span></footer>
+    </section>
+  </main>
+
+  <div class="confetti-layer" id="confettiLayer" aria-hidden="true"></div>
+  <div class="toast" id="toast" role="status" aria-live="polite">A little extra sparkle, just for you ✨</div>
+  <script src="script.js"></script>
+</body>
+</html>
